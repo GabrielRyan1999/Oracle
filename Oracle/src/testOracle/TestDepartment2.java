@@ -27,8 +27,14 @@ public class TestDepartment2 {
         
         dept.readManager();
         dept1.readManager();
-        System.out.println("Manager   = "+dept.getManager());
-        System.out.println("Manager 1 = "+dept1.getManager());
+        System.out.println("Manager 1");
+        for (int i = 0; i < dept.getManagers().size(); i++) {
+            System.out.println(dept.getManagers().get(i).toString());
+        }
+        System.out.println("Manager 2");
+        for (int i = 0; i < dept1.getManagers().size(); i++) {
+            System.out.println(dept1.getManagers().get(i).toString());
+        }
     }
   
 }
