@@ -51,7 +51,7 @@ public class Region {
     }
     
     public String toString(){
-        return region_id+","+region_name;
+        return region_id+" "+region_name;
     }
     
 }

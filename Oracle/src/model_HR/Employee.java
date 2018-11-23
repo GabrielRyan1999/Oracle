@@ -14,8 +14,29 @@ public class Employee {
     private int employee_id;
     private String first_name;
     private String last_name;
+
+    public Employee(int employee_id, String first_name, String last_name) {
+        this.employee_id = employee_id;
+        this.first_name = first_name;
+        this.last_name = last_name;
+    }
+
+    public Employee(int employee_id) {
+        this.employee_id = employee_id;
+    }
+
+    public Employee() {
+    }
+
     
 
+   
+
+    
+
+    
+    
+  
     /**
      * @return the first_name
      */
